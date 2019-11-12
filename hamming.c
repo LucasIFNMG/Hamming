@@ -90,7 +90,7 @@ int main()
     {
         if(vetorPosicaoBitsVerificacao[contBitsVerificacao] == i )
         {
-            vetorHamming[i] = 0;
+            vetorHamming[i] = 0; //Calcular os bits de Hamming e substituir nessa atribuição
             contBitsVerificacao++;
         }
 
